@@ -1,0 +1,476 @@
+
+html body{
+
+	height: 100%;
+	margin:0;
+	padding: 0;
+
+}
+
+body{
+	display: table;
+	width: 100%;
+	background-color: #050E2B;
+	position: relative;
+}
+
+
+
+#titre h1{
+	color: white;
+	font-family: "Didot", serif;
+	font-style: italic;
+	font-variant: small-caps;
+	margin-left:2%;
+}
+
+#titre{
+
+	display: grid;
+    align-items: center;
+    grid-template-columns:78% 65% ;
+}
+
+#titre img{
+
+	display: none;
+}
+
+#contenu{
+
+	/*background-color: #465970;*/
+	height: 15em;
+}
+
+/* accueil */
+
+#img_accueil{
+
+	width: 100%;
+	height: 80%;
+}
+
+#diapo{
+	/*background-color:#1D2A37;*/
+	margin-top: 5%;
+}
+
+/* Menu horizontal*/
+a{
+	text-decoration: none;
+	
+}
+
+
+#menu{
+
+	padding: 0;
+	margin: 0 0 0 0;
+	/*background-color: #4F142A;*/
+	font-size: 21px;	
+	text-align: center;
+	
+}
+
+#menu li{
+
+	display:inline;
+	list-style: none;
+	font-family: serif;
+
+}
+
+#menu a{
+
+	display:inline-block;
+	margin:2% 4%;
+	color:white;
+}
+
+#menu li#active a{
+    border-bottom: 1px solid #fff;
+    background-color: #fffff;
+}
+
+/* mobile en hidden*/
+
+#mMobile{
+
+	height: 4em;
+}
+
+
+
+
+/*déco*/
+
+#barreDeco{
+	height: 4px;
+	width: 20%;
+	margin-left: 5%;
+	background-color: #5A6972;
+}
+
+h3{
+
+	color:white;
+	margin:5% 0 0 15%;
+}
+
+
+/* page contact */
+
+#contenu_contact{
+
+	margin-top: 8%;
+	height: 25%;
+}
+
+#contenu_contact h4, p{
+	display: inline;
+	font-family: "Andale Mono", monospace;
+	margin-left: 20%;
+	color:white;
+	font-size: 17px;
+}
+
+#contenu_contact a{
+
+	margin-left: 20%;
+	font-size: 15px;
+	font-family: "Andale Mono", monospace;
+	color:white;
+}
+
+
+#logoInsta {
+	
+	width:5em;
+}
+
+#logoInstaPetit{
+
+	width: 3em;
+}
+
+#contenu_contact p{
+
+	margin-left: 10%;
+}
+
+/* petit écran mais caché */
+
+#contenu_contactSmall{
+
+	font-size: 15px;
+	font-family: "Andale Mono", monospace;
+	color:white;
+	margin-left: 30%;
+	display: none;
+}
+
+#contenu_contactSmall a{
+
+	font-family: "Andale Mono", monospace;
+	color:white;
+}
+
+#contenu_contactSmall p{
+
+	font-family: "Andale Mono", monospace;
+	color:white;
+	margin-left: 0;
+}
+
+
+#gaga{
+
+	color:white;
+	text-align: center;
+	font-family: "Didot", serif;
+	font-style: italic;
+	font-variant: small-caps;
+	margin-top: 5%;
+}
+
+/* */
+
+textarea{
+
+	width: 45%;
+	height: 10em;
+	margin-left: 20%;
+}
+
+/* Petit titre*/
+#Petittitre h1{
+
+	text-align: left;
+	color:#5A6972;
+	margin:5% 0 0 3%;
+	height: 4em;
+	font-family: "Andale Mono", monospace;
+}
+
+#Petittitre{
+
+	background-image: url("../images/accueil2.jpg");
+	background-size: 100%;
+	height: 20%;
+	opacity: 0.4;
+	margin-top: 3%;
+}
+
+
+
+#petitBarreDeco{
+
+
+	height: 2px;
+	margin-left:30%; 
+	margin-right:30%;
+	background-color: #4F142A;
+}
+
+
+/* contenu clip */
+
+#contenuClip{
+
+	width: 100%;
+	text-align: left; /* center avant */
+	margin-bottom: 5%;
+	margin-top: 5%;
+	height: 20em;
+}
+
+#contenuClip h4{
+
+	margin-left:15%;
+	font-family: "Andale Mono", monospace;
+	color:white;
+	font-size: 20px;
+}
+
+/* page audio */
+
+#contenu{
+
+	width: 100%;
+	text-align: left; /* center avant */
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+#contenu h4{
+
+	margin-left:15%;
+	font-family: "Andale Mono", monospace;
+	color:white;
+	font-size: 20px;
+
+}
+
+
+#contenu audio{
+
+	margin-left: 55%;
+}
+
+#contenu p{
+
+	display:inline;
+	margin-left: 15%;
+	font-family: "Andale Mono", monospace;
+	color:#5A6972;
+}
+
+
+
+
+/* changement de page droite*/
+
+#contenu #fDroite{
+
+	margin:0 0 0 90%;
+	text-align: right;
+}
+
+#fDroite{
+
+	width: 4em;
+}
+
+
+
+/* changement de page gauche*/
+
+#contenu #fGauche{
+
+	margin-left:5%;
+}
+
+#fGauche{
+
+	width: 3em;
+}
+
+#allContenu{
+
+	width: 100%; 
+}
+
+
+
+/* Petit titre son */
+
+#PetittitreSon{
+
+	width: 100%;
+	height: 20%;
+	margin-top: 3%;
+}
+
+#PetittitreSon img{
+
+	width: 100%;
+}
+
+/* Titre clips*/
+#PetittitreClip{
+
+	height: 25%;
+	margin:4% 0 0 0;
+	width: 100%;
+}
+
+#PetittitreClip img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* Titre courts-métrages */
+#PetittitreCM{
+
+	height: 22%;
+	margin-top: 3%;
+	width: 100%;
+}
+
+#PetittitreCM img{
+	width: 100%;
+	height: 100%;
+}
+
+/* pour les clips et courts métrages*/
+
+#contenuCM video{
+
+	margin-left: 32%;
+	width: 30em;
+	height: 15em;
+	border-color: 2px black;
+}
+
+/* page courts-métrages*/
+#contenuCM{
+
+	width: 100%;
+	text-align: left; /* center avant */
+	margin-bottom: 5%;
+	margin-top: 7%;
+}
+
+#contenuCM h4{
+
+	margin-left:10%;
+	font-family: "Andale Mono", monospace;
+	color:white;
+	font-size: 20px;
+}
+
+#contenuCM p{
+
+	display:inline;
+	margin-left: 15%;
+	font-family: "Andale Mono", monospace;
+	color:#5A6972;
+}
+
+#contenuCM a{
+
+	display:inline;
+	margin-left: 15%;
+	font-family: "Andale Mono", monospace;
+	color:purple;
+}
+
+
+
+
+/* bas de page (tous confondus besoins de mettre une grande div avant!!) */
+
+
+footer{
+
+	/*background-color: white;*/
+	bottom: 0;
+	width: 100%;
+	height: 10em;
+	margin-top: 10%;
+	background-color:#1D2A37;
+	/*border-top: 4px solid #4F142A;*/
+}
+
+#bas{
+	display: grid;
+    align-items: center;
+    grid-template-columns:25% 65% 70%;
+}
+
+#linkedin{
+
+	height: 2em;
+}
+
+#clap{
+
+	height: 4em;
+}
+
+#bas p{
+	text-align: left;
+	margin-left:2%;
+	
+}
+
+
+/* Ancien footer ...*/
+/*footer p{
+
+	margin:1% 0 0 90%;
+	
+}
+
+footer img{
+
+	margin:2em 0 1% 0;
+	height: 4em;
+}
+
+#createur{
+	margin-left: 3%;
+	font-size: 15px;
+	margin-bottom: 3%;
+}
+
+#linkedin{
+
+	height: 2em;
+}*/
+
+
+
+

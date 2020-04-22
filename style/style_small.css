@@ -8,11 +8,136 @@ Choses à changer:
 
 */
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 760px){
 	
 	/* page audio et vidéo FAIRE VIDEO*/
 
 	#contenu audio{
+
+		margin-left: 20%;
+		margin-top: 3%;
+	}
+
+	#contenu p{
+
+		margin-left:5%;
+	}
+
+	#contenu h4{
+
+		margin-left:5%;
+	}
+
+	/* Pour les videos et clips*/
+
+	#contenu{
+
+		margin-top: 20%;
+	}
+
+	#PetittitreClip{
+
+		height: 10%;
+		margin:4% 0 10% 0;
+		width: 100%;
+	}
+
+	#PetittitreClip img{
+		width: 100%;
+		height: 40%;
+	}
+
+	#PetittitreCM{
+
+		height: 22%;
+		margin-top: 3%;
+		width: 100%;
+	}
+
+	#PetittitreCM img{
+		width: 100%;
+		height: 40%;
+	}
+
+	#contenuCM video{
+
+		margin-left: 1%;
+		margin-top: 2%;
+		width: 20em;
+		height: 10em;
+	}
+
+	#contenuCM h4{
+
+		margin-left:6%;
+	}
+
+	#contenuCM p{
+
+		margin-left: 7%;
+	}
+
+	#contenuCM a{
+
+		margin-left: 7%;
+	}
+
+	/* rapprocher les flèches de PAGE SON*/
+	#contenu #fDroite{
+
+		margin:0 0 0 53%;
+		text-align: right;
+	}
+
+	/* contact vertical*/
+
+	#contenu_contact{
+
+		display: none;
+	}
+
+	#contenu_contactSmall{
+
+		display: block;
+	}
+
+	/* changer le footer */
+	#clap{
+
+		height: 3em;
+	}
+
+	#bas{
+		
+	    grid-template-columns:25% 50% 70%;
+	}
+
+	
+	/* menu téléphone */
+
+	#titre img{
+
+		display:block;
+	}
+
+	#menu{
+
+		display: none;
+	}
+
+	#menu li{
+
+		display:block;
+	}
+
+}
+
+if (stristr($_SERVER['HTTP_USER_AGENT'], "iPhone")  
+|| strpos($_SERVER['HTTP_USER_AGENT'], "iPod") 
+|| strpos($_SERVER['HTTP_USER_AGENT'], "Android") ) 
+{ 
+ 
+ 	#contenu audio{
 
 		margin-left: 20%;
 		margin-top: 3%;

@@ -5,6 +5,7 @@ var menu = document.getElementById("menu");
 if(m.style.display == "none"){
 	menu.style.display="block";
 }
+
 m.addEventListener('click', async function(){
 	
 	if(menu.style.display == "none"){

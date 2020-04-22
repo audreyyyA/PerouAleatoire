@@ -8,6 +8,10 @@ Choses à changer:
 
 */
 
+/* Série de teste pour les téléphones... 
+avant :@media only screen and (max-width: 760px){;
+*/
+
 @media only screen and (max-width: 760px){
 	
 	/* page audio et vidéo FAIRE VIDEO*/
@@ -109,8 +113,11 @@ Choses à changer:
 
 	#bas{
 		
-	    grid-template-columns:25% 50% 70%;
+		margin-top: 80%;
+		margin-bottom:0;
+	    grid-template-columns:40% 40% 50%;
 	}
+
 
 	
 	/* menu téléphone */

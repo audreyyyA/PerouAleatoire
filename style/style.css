@@ -4,22 +4,29 @@ html body{
 	height: 100%;
 	margin:0;
 	padding: 0;
-
 }
 
 body{
 	display: table;
 	width: 100%;
-	background-color: #050E2B;
+	background-color: #0A0801;
 	position: relative;
 }
 
+#contenu_accueil p, h4{
 
+	color: white;
+}
+
+#contenu_accueilSmall{
+
+	display: none;
+}
 
 #titre h1{
-	color: white;
-	font-family: "Didot", serif;
-	font-style: italic;
+	
+	color:#9E2C2A;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 	font-variant: small-caps;
 	margin-left:2%;
 }
@@ -49,6 +56,11 @@ body{
 	width: 80%;
 }
 
+#img_accueilSmall{
+
+	display:none;
+}
+
 #diapo{
 	/*background-color:#1D2A37;*/
 	margin-top: 5%;
@@ -76,21 +88,35 @@ a{
 
 	display:inline;
 	list-style: none;
-	font-family: serif;
+	font-family: calibri;
 
 }
 
 #menu a{
 
 	display:inline-block;
-	margin:2% 4%;
+	margin:2% 2%;
 	color:white;
+	color:#9E2C2A;
 }
 
 #menu li#active a{
-    border-bottom: 1px solid #fff;
-    background-color: #fffff;
+    border-bottom: 1px solid white;
+    
 }
+
+#active{
+
+	font-weight: 900;
+
+}
+
+#menu h1, a{
+
+	display:inline-block;
+}
+
+
 
 /* mobile en hidden*/
 
@@ -98,8 +124,6 @@ a{
 
 	height: 4em;
 }
-
-
 
 
 /*déco*/
@@ -114,6 +138,7 @@ a{
 h3{
 
 	color:white;
+	color:black;
 	margin:5% 0 0 15%;
 }
 
@@ -121,7 +146,6 @@ h3{
 /* page contact */
 
 #contenu_contact{
-
 	margin-top: 8%;
 	height: 25%;
 }
@@ -193,7 +217,7 @@ h3{
 	margin-top: 5%;
 }
 
-/* */
+/* si elle marche un jour... */
 
 textarea{
 
@@ -229,7 +253,7 @@ textarea{
 	height: 2px;
 	margin-left:30%; 
 	margin-right:30%;
-	background-color: #4F142A;
+	background-color: #9E2C2A;
 }
 
 
@@ -249,6 +273,7 @@ textarea{
 	margin-left:15%;
 	font-family: "Andale Mono", monospace;
 	color:white;
+	color:black;
 	font-size: 20px;
 }
 
@@ -284,9 +309,6 @@ textarea{
 	font-family: "Andale Mono", monospace;
 	color:#5A6972;
 }
-
-
-
 
 /* changement de page droite*/
 
@@ -328,9 +350,27 @@ textarea{
 	width: 100%; 
 }
 
+#allContenuSmall{
+
+	display:none;
+}
 
 
 /* Petit titre son */
+
+#grandeBarre{
+
+	height: 2px;
+	width: 100%;
+	background-color: #4F142A;
+}
+
+#titreSon{
+	margin-top:5%;
+	text-align: center;
+	font-family: calibri;
+	font-size:2em;
+}
 
 #PetittitreSon{
 
@@ -339,25 +379,49 @@ textarea{
 	margin-top: 3%;
 }
 
-#PetittitreSon img{
+#PetittitreSon {
+
+	margin-bottom: 8em;
+}
+
+#pianoPano{
 
 	width: 100%;
+	
 }
+
+#pianoPanoSmall{
+
+	display:none;
+}
+
 
 /* Titre clips*/
 #PetittitreClip{
 
 	height: 25%;
-	margin:4% 0 0 0;
+	margin:0 0 0 0;
 	width: 100%;
+	text-align: center;
 }
 
-#PetittitreClip img{
-	width: 100%;
-	height: 100%;
+#PetittitreClip h1{
+
+	margin-left: 2em;
+	font-family: serif;
+	font-style: italic;
+	font-size: 5em;
 }
 
+#clipIMG{
 
+	width: 80%;
+}
+
+#clipIMGSmall{
+
+	display:none;
+}
 
 /* Titre courts-métrages */
 #PetittitreCM{
@@ -379,7 +443,7 @@ textarea{
 	margin-left: 32%;
 	width: 30em;
 	height: 15em;
-	border-color: 2px black;
+	border-color: 2px white;
 }
 
 /* page courts-métrages*/
@@ -389,6 +453,7 @@ textarea{
 	text-align: left; /* center avant */
 	margin-bottom: 5%;
 	margin-top: 7%;
+	background-color: #0A0801;
 }
 
 #contenuCM h4{
@@ -415,7 +480,16 @@ textarea{
 	color:purple;
 }
 
+#ensSmall{
 
+	display:none;
+}
+
+
+#allContenuCMSmall{
+
+	display:none;
+}
 
 
 /* bas de page (tous confondus besoins de mettre une grande div avant!!) */
@@ -428,8 +502,7 @@ footer{
 	width: 100%;
 	height: 10em;
 	margin-top: 10%;
-	background-color:#1D2A37;
-	
+	background-color: #9E2C2A;
 }
 
 #bas{
@@ -453,34 +526,3 @@ footer{
 	margin-left:2%;
 	
 }
-
-/*#linkedin{
-
-	height: 2em;
-}
-
-#clap{
-
-	height: 4em;
-}
-
-.container{
-	margin-left: 0;
-	width: 100%;
-	background-color:#1D2A37; 
-}
-
-.container p{
-	top: 3px;
-	text-align: left;
-	margin-left:2%;
-	
-}
-
-.container #clap{
-	text-align: right;
-	margin-left:80%;
-}*/
-
-
-

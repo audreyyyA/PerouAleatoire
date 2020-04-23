@@ -34,9 +34,29 @@ avant :@media only screen and (max-width: 760px){;
 
 	/* Pour les videos et clips*/
 
+	#allContenuSmall{
+
+		display:block;
+	}
+
+	#allContenu{
+		display:none;
+	}
+
 	#contenu{
 
 		margin-top: 20%;
+	}
+
+	#pianoPanoSmall{
+
+		display:block;
+		width: 100%;
+	}
+
+	#pianoPano{
+
+		display:none;
 	}
 
 	#PetittitreClip{
@@ -49,6 +69,19 @@ avant :@media only screen and (max-width: 760px){;
 	#PetittitreClip img{
 		width: 100%;
 		height: 40%;
+	}
+
+
+	#clipIMGSmall{
+
+		display:block;
+		width: 100%;
+	}
+
+
+	#clipIMG{
+
+		display:none;
 	}
 
 	#PetittitreCM{
@@ -84,6 +117,28 @@ avant :@media only screen and (max-width: 760px){;
 	#contenuCM a{
 
 		margin-left: 7%;
+	}
+
+	#ensSmall{
+
+		display:block;
+		width: 100%
+	}
+
+	#ens{
+
+		display:none;
+	}
+
+
+	#allContenuCMSmall{
+
+		display:block;
+	}
+
+	#allContenuCM{
+
+		display:none;
 	}
 
 	/* rapprocher les flèches de PAGE SON*/
@@ -137,9 +192,32 @@ avant :@media only screen and (max-width: 760px){;
 		display:block;
 	}
 
+	/*accueil*/
 	#img_accueil{
 
+		display: none;
+	}
+
+	#img_accueilSmall{
+
+		display:block;
 		width: 100%;
 	}
+
+	#contenu_accueilSmall p, h4{
+		display: block;
+		color: white;
+	}
+
+	#contenu_accueilSmall{
+		display: block;
+	}
+
+	#contenu_accueil{
+
+		display: none;
+	}
+
+
 
 }
